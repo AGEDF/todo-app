@@ -4,3 +4,19 @@ button {
   margin: 10px;
   padding: 5px;
 }
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; /* Ensure it stays on top of other elements */
+}
+body {
+  padding-top: 100px; /* Adjust this value based on the height of your navbar */
+}
+
+footer{
+  bottom: 0;
+  position: absolute;
+  width: 90%;
+  height: 40px;
+}
